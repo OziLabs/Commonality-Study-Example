@@ -1,7 +1,9 @@
 # --- Introduction ---
-This is an example of a root cause analysis script across multiple areas/ buildings/ companies. I will be showing how I created the data, prepared the data, and conducted the analysis below. In the real world I would follow the 8D proccess, so before this step, a team would already be formed of the stakeholders in a RACI matrix. After, the problem would be defined such as a failure spike, yield drop, or scrap spike. Then containment would be completed of this area and material.
+This is an example of a root cause analysis script across multiple areas/ buildings/ companies. I will be showing how I created the data, prepared the data, and conducted the analysis below. 
 
-Below, potentially after a 5 Why Analysis, the root cause investigation really begins in the form of a commonality study: 
+In the real world I would follow an 8D root cause proccess, so before this step, a team would have already bee formed with the stakeholders (RACI matrix). After this step, the problem would have been properly defined such as a failure spike, yield drop, or scrap increase. Then, any necessary containment would be addressed for this area and material, until more permanent corrective action (CAPA) could be implemented.
+
+Below, potentially after brief 5 Why Analysis, the comprehensive root cause investigation begins in the form of a commonality study done in Python: 
 
 # --- Synthetic Dataset Modeling Real World ---
 ## Importing Packages
